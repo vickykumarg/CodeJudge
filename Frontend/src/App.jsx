@@ -14,8 +14,7 @@ function App() {
   const [code, setCode] = useState(`/* Write Code in any Language and Check Whether it is Correct or not. like JS Code -:  function sum() {
   return 1 + 1 
 }*/`)
-
-  const [review, setReview] = useState(``)
+  const [review, setReview] = useState(`Output With Explanation`)
 
   useEffect(() => {
     prism.highlightAll()
