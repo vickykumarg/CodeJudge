@@ -11,9 +11,9 @@ import './App.css'
 function App() {
 
   const [count, setCount] = useState(0)
-  const [code, setCode] = useState(` function sum() {
-  return 1 + 1
-}`)
+  const [code, setCode] = useState(`/* Write Code in any Language and Check Whether it is Correct or not. like JS Code -:  function sum() {
+  return 1 + 1 
+}*/`)
 
   const [review, setReview] = useState(``)
 
@@ -51,7 +51,7 @@ function App() {
           </div>
           <div
             onClick={reviewCode}
-            className="review">Review</div>
+            className="review">Check Code</div>
         </div>
         <div className="right">
           <Markdown
